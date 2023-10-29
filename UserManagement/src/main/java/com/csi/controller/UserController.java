@@ -32,4 +32,9 @@ public class UserController {
 
         return ResponseEntity.ok(msg);
     }
+
+    @GetMapping
+    public String say(){
+        return "welcome";
+    }
 }
